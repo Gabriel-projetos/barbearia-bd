@@ -1,2 +1,1 @@
-# barbearia-bd
-Projeto da faculdade de um banco de dados para uma barbearia.
+Projeto acadêmico de banco de dados relacional para gerenciar clientes, barbeiros, serviços, agendamentos e pagamentos de uma barbearia. Desenvolvi o ciclo completo: levantamento de requisitos, modelo conceitual (DER), modelo lógico e script físico em SQL (DDL), com chaves primárias e estrangeiras e restrições de integridade referencial. O relacionamento N:N entre agendamentos e serviços foi resolvido com uma tabela associativa (agendamento_servico), permitindo que um agendamento tenha vários serviços e que cada serviço apareça em vários agendamentos. Cada agendamento pertence a um único cliente e a um único barbeiro, e gera no máximo um pagamento, garantido por uma restrição UNIQUE.
